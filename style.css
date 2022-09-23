@@ -246,12 +246,12 @@ header .navbar ul li a:hover{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid #fff;
+     border-left: .2rem /*solid #fff*/;
     position: relative;
 }
 
 .education .box-container .box span{
-    font-size: 1.3rem;
+    font-size:2.3rem;
     background:#222;
     color:#fff;
     border-radius: 5rem;
@@ -434,6 +434,7 @@ header .navbar ul li a:hover{
 
     html{
         font-size: 50%;
+        
     }
  
  }
