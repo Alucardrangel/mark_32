@@ -235,17 +235,17 @@ header .navbar ul li a:hover{
 
 .education .box-container{
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding:1rem 0;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
 }
 
 .education .box-container .box{
-    width:27rem;
+    width:23rem;
     margin:4rem 1rem;
-    padding-left: 7.3rem;
+    /* padding-left: 5.5rem; */
     border-left: .2rem /*solid #fff*/;
     position: relative;
 }
@@ -436,7 +436,7 @@ header .navbar ul li a:hover{
         font-size: 50%;
         
     }
- 
+   
  }
 
 @media (max-width:400px){
@@ -455,6 +455,7 @@ header .navbar ul li a:hover{
  
     .education .box-container .box{
         width:100%;
+       
     }
 
     .portfolio .box-container .box{
@@ -462,7 +463,7 @@ header .navbar ul li a:hover{
     }
 
     .contact .row form{
-        margin:3rem 700;
+        margin:3rem 0;
     }
 
  }
